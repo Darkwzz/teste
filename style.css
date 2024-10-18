@@ -10,13 +10,13 @@
     }
 
     body{
-        width: 768px;
+        width: 100%;
         background-color: black;
         color: #face98;
     }
 
     .header{
-    
+        border: 1px solid red;
         background-color: black;
 
     }
@@ -24,31 +24,24 @@
 
     .header img{
         width: 100%;
-        border-radius: 20px;
     
         
     }
 
     .header li{
         list-style: none;
-        margin: 30px;
+
     }
 
     .header a{
         text-decoration: none;
-        color: #ffffff;
-        text-decoration: none;
-        border: 1px solid #face98;
-        border-radius: 8px;
-        padding: 5px;
-    
-        
+        color: #face98;
     
     }
 
     .header ul{
         display: flex;
-        flex-direction:row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -56,21 +49,13 @@
     
     }
 
+/* Parte section */
 
-
-
-    p{
-        text-align: center;
-        width: 600px;
+    .section{
+        border: 1px solid red;
     }
 
-/* Parte index */
-
-    /* .section{
-        border: 1px solid red;
-    } */
-
-    .index img{
+    .section img{
         width: 80%;
         border-radius: 10px;
         
@@ -81,29 +66,9 @@
         text-align: center;
     }
 
-}
-
-/* Parte Paixao */
-
-.paixao img{
-    width: 80%;
-    border-radius: 10px;
-}
-
-.video{
-    margin-top: 20px;
-    text-align: center;
-
-}
-
-.paixao-texto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.paixao-texto2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .video{
+        margin-top: 20px;
+        text-align: center;
+ 
+    }
 }
