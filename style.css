@@ -105,7 +105,6 @@ body{
 .paixao--img{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 
@@ -123,17 +122,11 @@ body{
     border-radius: 100px;
 }
 
-.ana {
+.Lideres {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     
 }
 
-.ana p{
-    margin: auto;
-    width: 250px;
-    font-size: 10px;
-    text-align: center;
-}
