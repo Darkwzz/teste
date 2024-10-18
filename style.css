@@ -1,6 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    width: 100%;
+    background-color: black;
+    color: #face98;
 }
 @media (max-width: 768px) {
 
@@ -9,11 +10,7 @@
         padding: 0;
     }
 
-    body{
-        width: 100%;
-        background-color: black;
-        color: #face98;
-    }
+   
 
     .header{
         background-color: black;
@@ -53,26 +50,6 @@
     
     }
 
-/* Parte section */
-
-
-    .section img{
-        width: 80%;
-        border-radius: 10px;
-        
-    }
-
-    .img{
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .video{
-        margin-top: 20px;
-        text-align: center;
- 
-    }
-
     p{
         text-align: center;
     }
@@ -82,11 +59,54 @@
         justify-content: center;
         align-items: center;
     }
+
+    .video{
+        margin-top: 20px;
+        text-align: center;
+ 
+    }
+
+/* Parte index */
+
+
+    .index img{
+        width: 80%;
+        border-radius: 10px;
+        
+    }
+
+    .index--img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+ 
+
+ 
 }
 
 /* Section Paixao */
 
+.paixao p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.paixao img{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.paixao--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Section atores */
